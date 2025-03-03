@@ -21,7 +21,8 @@
             android:name=".ui.sidebar.SidebarSettingsActivity"
             android:exported="true"
             android:label="@string/sidebar_label"
-            android:theme="@style/Theme.SpaLib">
+            android:theme="@style/Theme.SpaLib"
+	    android:enableOnBackInvokedCallback="true">
             <intent-filter>
                 <action android:name="com.android.settings.action.IA_SETTINGS" />
             </intent-filter>
